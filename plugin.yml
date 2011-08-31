@@ -1,0 +1,17 @@
+name: SeaHome
+author: seaboy1234
+main: com.rakaienguard.seaboy1234.bukkit.SeaHome.SeaHome
+version: 1.0.0
+database: true
+description: >
+             Provides homes for players.
+commands:
+    home:
+        description: Teleports you to your home.
+        usage: /<command> [world]
+    sethome:
+        description: Sets your home to your current location.
+        useage: /<command>
+    intrude: 
+        description: Teleports you to another players home.
+        useage: /<command> <player>
